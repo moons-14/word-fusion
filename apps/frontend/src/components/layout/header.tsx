@@ -1,17 +1,10 @@
-import {
-	Select,
-	SelectContent,
-	SelectItem,
-	SelectTrigger,
-	SelectValue,
-} from "@/components/ui/select";
 import { Settings, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Button } from "../ui/button";
 
 export const Header = () => {
 	return (
-		<header className="h-12 border-b border-border flex items-center justify-between p-4">
+		<header className="h-12 border-b border-border flex items-center justify-between p-4 container mx-auto px-4">
 			<h1 className="font-bold text-xl">
 				<Link href="/">Word Fusion</Link>
 			</h1>
